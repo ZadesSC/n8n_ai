@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Log files
+*.log
+debug.log
+
+# Docker-related
+*.pid
+*.tar
+*.img
+*.bak
+
+# Python requirements backup
+pip-log.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# VS Code / JetBrains IDE configs
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Project-specific
+mcp/__pycache__/
+mcp/venv/
+mcp/debug.log
